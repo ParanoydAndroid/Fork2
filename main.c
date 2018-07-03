@@ -1,17 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/types.h>
 #include <unistd.h>
 
 int main() {
-    printf("Hello, World!\n");
 
-    char *testChar;
     pid_t pid;
+    int retValue = 0;
 
-    fork();
+    pid = fork();
     
-    
+    switch (pid) {
 
-    return 0;
+        case -1:
+            // This is a fail state
+            //TODO: Figure out how to throw an error
+            retValue = -1;
+            break;
+
+        case 0:
+            //child process always returns 0 from a fork() call
+            printf("God help me it worked\n");
+            break;
+
+        default:
+            //for the parent, which apparently has an arbitrary PID
+            printf("Parent PID is: %u\n", pid);
+
+    }
+
+    return retValue;
 }

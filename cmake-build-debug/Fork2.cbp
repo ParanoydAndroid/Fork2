@@ -8,82 +8,82 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Fork2">
-				<Option output="C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Fork2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fork2"/>
-					<CompileFile command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Fork2/fast">
-				<Option output="C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Fork2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fork2/fast"/>
-					<CompileFile command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fork2">
+				<Option output="/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Fork2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fork2"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fork2/fast">
+				<Option output="/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Fork2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fork2/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Bkama/CLionProjects/Fork2/main.c">
+		<Unit filename="/cygdrive/c/Users/Bkama/CLionProjects/Fork2/main.c">
 			<Option target="Fork2"/>
 		</Unit>
-		<Unit filename="C:/Users/Bkama/CLionProjects/Fork2/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/Bkama/CLionProjects/Fork2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

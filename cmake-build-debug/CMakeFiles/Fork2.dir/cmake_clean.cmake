@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Fork2.dir/main.c.obj"
+  "CMakeFiles/Fork2.dir/main.c.o"
   "Fork2.pdb"
   "Fork2.exe"
-  "Fork2.exe.manifest"
   "libFork2.dll.a"
 )
 
