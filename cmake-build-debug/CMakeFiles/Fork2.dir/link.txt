@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Fork2.dir/main.c.o  -o Fork2.exe -Wl,--out-implib,libFork2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Fork2.dir/fork.c.o  -o Fork2.exe -Wl,--out-implib,libFork2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

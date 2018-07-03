@@ -4,7 +4,7 @@
 int main() {
 
     FILE* out = fopen( "project1.txt", "w");
-    pid_t pid_a;
+    pid_t pid_a, pid_b;
     int retValue = 0;
 
     pid_a = fork();
@@ -25,11 +25,11 @@ int main() {
 
         default:
             //for the parent, which apparently has an arbitrary PID
-            printf("Parent PID is: %u\n", pid_a);
+            //printf("Parent PID is: %u\n", pid_a);
 
             //Now spawn a second child only in the parent code
-            pid_t pid_b = fork();
 
+            pid_b = fork();
             //Here's where it gets ugly.  I don't love the nestedness here
             switch (pid_b) {
 
@@ -40,7 +40,7 @@ int main() {
                     break;
 
                 case 0:
-
+                    //code for parent
                     fprintf(out, "A");
                     break;
 
@@ -49,6 +49,10 @@ int main() {
                     fprintf( out, "C");
                     break;
             }
+
+            //we shouldn't ever actually get here
+            perror("Something has gone terribly wrong with your switches.  Unknown PID error: ");
+            break;
 
     }
 

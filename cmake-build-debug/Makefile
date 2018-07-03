@@ -123,32 +123,32 @@ Fork2/fast:
 	$(MAKE) -f CMakeFiles/Fork2.dir/build.make CMakeFiles/Fork2.dir/build
 .PHONY : Fork2/fast
 
-main.o: main.c.o
+fork.o: fork.c.o
 
-.PHONY : main.o
+.PHONY : fork.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/Fork2.dir/build.make CMakeFiles/Fork2.dir/main.c.o
-.PHONY : main.c.o
+fork.c.o:
+	$(MAKE) -f CMakeFiles/Fork2.dir/build.make CMakeFiles/Fork2.dir/fork.c.o
+.PHONY : fork.c.o
 
-main.i: main.c.i
+fork.i: fork.c.i
 
-.PHONY : main.i
+.PHONY : fork.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/Fork2.dir/build.make CMakeFiles/Fork2.dir/main.c.i
-.PHONY : main.c.i
+fork.c.i:
+	$(MAKE) -f CMakeFiles/Fork2.dir/build.make CMakeFiles/Fork2.dir/fork.c.i
+.PHONY : fork.c.i
 
-main.s: main.c.s
+fork.s: fork.c.s
 
-.PHONY : main.s
+.PHONY : fork.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/Fork2.dir/build.make CMakeFiles/Fork2.dir/main.c.s
-.PHONY : main.c.s
+fork.c.s:
+	$(MAKE) -f CMakeFiles/Fork2.dir/build.make CMakeFiles/Fork2.dir/fork.c.s
+.PHONY : fork.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Fork2"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... fork.o"
+	@echo "... fork.i"
+	@echo "... fork.s"
 .PHONY : help
 
 

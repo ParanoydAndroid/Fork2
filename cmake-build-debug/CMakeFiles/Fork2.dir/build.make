@@ -57,38 +57,38 @@ include CMakeFiles/Fork2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Fork2.dir/flags.make
 
-CMakeFiles/Fork2.dir/main.c.o: CMakeFiles/Fork2.dir/flags.make
-CMakeFiles/Fork2.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Fork2.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fork2.dir/main.c.o   -c /cygdrive/c/Users/Bkama/CLionProjects/Fork2/main.c
+CMakeFiles/Fork2.dir/fork.c.o: CMakeFiles/Fork2.dir/flags.make
+CMakeFiles/Fork2.dir/fork.c.o: ../fork.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Fork2.dir/fork.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Fork2.dir/fork.c.o   -c /cygdrive/c/Users/Bkama/CLionProjects/Fork2/fork.c
 
-CMakeFiles/Fork2.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fork2.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Bkama/CLionProjects/Fork2/main.c > CMakeFiles/Fork2.dir/main.c.i
+CMakeFiles/Fork2.dir/fork.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fork2.dir/fork.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Bkama/CLionProjects/Fork2/fork.c > CMakeFiles/Fork2.dir/fork.c.i
 
-CMakeFiles/Fork2.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fork2.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Bkama/CLionProjects/Fork2/main.c -o CMakeFiles/Fork2.dir/main.c.s
+CMakeFiles/Fork2.dir/fork.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fork2.dir/fork.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Bkama/CLionProjects/Fork2/fork.c -o CMakeFiles/Fork2.dir/fork.c.s
 
-CMakeFiles/Fork2.dir/main.c.o.requires:
+CMakeFiles/Fork2.dir/fork.c.o.requires:
 
-.PHONY : CMakeFiles/Fork2.dir/main.c.o.requires
+.PHONY : CMakeFiles/Fork2.dir/fork.c.o.requires
 
-CMakeFiles/Fork2.dir/main.c.o.provides: CMakeFiles/Fork2.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/Fork2.dir/build.make CMakeFiles/Fork2.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/Fork2.dir/main.c.o.provides
+CMakeFiles/Fork2.dir/fork.c.o.provides: CMakeFiles/Fork2.dir/fork.c.o.requires
+	$(MAKE) -f CMakeFiles/Fork2.dir/build.make CMakeFiles/Fork2.dir/fork.c.o.provides.build
+.PHONY : CMakeFiles/Fork2.dir/fork.c.o.provides
 
-CMakeFiles/Fork2.dir/main.c.o.provides.build: CMakeFiles/Fork2.dir/main.c.o
+CMakeFiles/Fork2.dir/fork.c.o.provides.build: CMakeFiles/Fork2.dir/fork.c.o
 
 
 # Object files for target Fork2
 Fork2_OBJECTS = \
-"CMakeFiles/Fork2.dir/main.c.o"
+"CMakeFiles/Fork2.dir/fork.c.o"
 
 # External object files for target Fork2
 Fork2_EXTERNAL_OBJECTS =
 
-Fork2.exe: CMakeFiles/Fork2.dir/main.c.o
+Fork2.exe: CMakeFiles/Fork2.dir/fork.c.o
 Fork2.exe: CMakeFiles/Fork2.dir/build.make
 Fork2.exe: CMakeFiles/Fork2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Bkama/CLionProjects/Fork2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Fork2.exe"
@@ -99,7 +99,7 @@ CMakeFiles/Fork2.dir/build: Fork2.exe
 
 .PHONY : CMakeFiles/Fork2.dir/build
 
-CMakeFiles/Fork2.dir/requires: CMakeFiles/Fork2.dir/main.c.o.requires
+CMakeFiles/Fork2.dir/requires: CMakeFiles/Fork2.dir/fork.c.o.requires
 
 .PHONY : CMakeFiles/Fork2.dir/requires
 
