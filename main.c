@@ -3,6 +3,7 @@
 
 int main() {
 
+    FILE* out = fopen( "project1.txt", "w");
     pid_t pid_a;
     int retValue = 0;
 
@@ -18,7 +19,8 @@ int main() {
 
         case 0:
             //child process always returns 0 from a fork() call
-            printf("God help me it worked\n");
+            //child_a
+            fprintf( out, "B" );
             break;
 
         default:
@@ -39,12 +41,12 @@ int main() {
 
                 case 0:
 
-                    //TODO: parent code
+                    fprintf(out, "A");
                     break;
 
                 default:
                     //code for child b
-                    puts("child B was here");
+                    fprintf( out, "C");
                     break;
             }
 
@@ -52,6 +54,7 @@ int main() {
 
     return retValue;
 }
+
 
 
 
