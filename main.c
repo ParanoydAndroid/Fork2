@@ -12,8 +12,8 @@ int main() {
     switch (pid) {
 
         case -1:
-            // This is a fail state
-            //TODO: Figure out how to throw an error
+            // This is a fail stateK
+            perror( "Error forking process: ");
             retValue = -1;
             break;
 
