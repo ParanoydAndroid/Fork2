@@ -3,7 +3,7 @@
 
 int main() {
 
-    FILE* out = fopen( "project1.txt", "w");
+    FILE* out = fopen( "fork.txt", "w");
     pid_t pid_a, pid_b;
     int retValue = 0;
 
@@ -20,7 +20,7 @@ int main() {
         case 0:
             //child process always returns 0 from a fork() call
             //child_a
-            fprintf( out, "B" );
+            fprintf( out, "B\n" );
             break;
 
         default:
@@ -40,18 +40,16 @@ int main() {
                     break;
 
                 case 0:
-                    //code for parent
-                    fprintf(out, "A");
+                    //code for child b
+                    fprintf(out, "C\n");
                     break;
 
                 default:
-                    //code for child b
-                    fprintf( out, "C");
+                    //code for parent
+                    fprintf( out, "A\n");
                     break;
             }
 
-            //we shouldn't ever actually get here
-            perror("Something has gone terribly wrong with your switches.  Unknown PID error: ");
             break;
 
     }
