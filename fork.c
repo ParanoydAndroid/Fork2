@@ -1,21 +1,20 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 int main() {
 
     FILE* out = fopen( "fork.txt", "w");
     pid_t pid_a, pid_b;
-    int retValue = 0;
 
     pid_a = fork();
     
-    switch (pid_a) {
+    switch (pid_a){
 
         case -1:
             // This is a fail state
             perror( "Error forking child a: ");
-            retValue = -1;
-            break;
+            exit( EXIT_FAILURE );
 
         case 0:
             //child process always returns 0 from a fork() call
@@ -25,19 +24,17 @@ int main() {
 
         default:
             //for the parent, which apparently has an arbitrary PID
-            //printf("Parent PID is: %u\n", pid_a);
 
             //Now spawn a second child only in the parent code
 
             pid_b = fork();
-            //Here's where it gets ugly.  I don't love the nestedness here
-            switch (pid_b) {
+
+            switch (pid_b){
 
                 case -1:
 
                     perror( "Error on second fork: ");
-                    retValue = -1;
-                    break;
+                    exit( EXIT_FAILURE );
 
                 case 0:
                     //code for child b
@@ -54,7 +51,8 @@ int main() {
 
     }
 
-    return retValue;
+    return 0;
+
 }
 
 
